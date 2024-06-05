@@ -1,0 +1,108 @@
+/* Cabecaalho */
+header{
+   height: 150px; background: url(imgs/Logo\ site.png) no-repeat;
+}
+
+.caixa-menu{ 
+  float: right; margin-top: 50px;  
+}
+
+.caixa-menu ul{
+  display: inline-block; list-style-type: none;
+}
+
+.caixa-menu ul li{
+  display: inline-block;
+}
+
+.caixa-menu ul li a{
+  text-decoration: none;color: white ; background-color: navy;padding: 10px;font-weight: bolder; border-radius: 15px; border: solid navy 
+}
+
+.caixa-menu ul li a:hover{
+  background-color: lightblue; color: navy; 
+}
+
+.logo{
+  width:30%
+}
+
+
+/* Materias */
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif; background-color: #6060c3;
+}
+main{
+  background-color: #add8f5; width: 70%; float: left; padding: 25px; box-sizing: border-box; margin-top: 10px; border-radius: 15px;
+}
+.caixa-post{
+  margin-bottom: 50px; clear: both;
+}
+.caixa-post p{
+  background-color:#502cdd; padding: 10px; border-radius: 10px; color: #d6d3fd;
+}
+.caixa-post img{
+  border: solid navy;
+}
+h1{
+  display: none;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif; color: #0f1961;
+}
+h3{
+  font-size: 15px; font-weight: 20%; margin-bottom: 5px; font-family: Arial, Helvetica, sans-serif; color: #0f1961;
+}
+.categoria{
+  background-color: 	#0c8fbb; color: #d6d6d6; padding: 5px; border-radius: 5px; margin-bottom: 5px;
+}
+
+h3 p{
+  font-size: 15px; 
+}
+.imagens-materia{
+  width: 250px; display: block; float: left; margin-right: 15px;
+}
+
+
+/* Barra lateral */
+aside{
+  background-color:	#8ebfd2; width: 30%; float: left; padding: 25px; box-sizing: border-box;margin-top: 10px; border-radius: 15px;
+  
+}
+.Caixa de pesquisa{
+  margin-bottom: 30px;
+}
+button{
+  background-color: navy; color: white; padding: 5px; margin-left: 5px;border: solid navy; border-radius: 5px; font-weight: bold;
+}
+button:hover{
+  background-color: lightblue; color: navy;
+}
+.categorias{
+  margin-bottom: 30px; 
+}
+
+.categorias ul{
+  list-style-type: none; 
+}
+
+.categorias ul li a{
+  text-decoration: none; color: navy;
+}
+
+input{
+  border: none; border-radius: 5px; height: 20px;
+}
+
+/* Breakpoints*/
+
+@media screen and (max-width: 600px){
+  .caixa-menu{float: none;}
+  .logo{max-width: 30%;}
+  aside{width: 100%;float: none;display: flex;}
+  main{float: none;width: 100%;}
+  
+}
